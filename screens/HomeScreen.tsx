@@ -50,12 +50,12 @@ const isVideoURL = (url: string): boolean => {
 
 const extractVideoId = (url: string): string => {
   // YouTube
-  const youtubeMatch = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/);
-  if (youtubeMatch) return `https://www.youtube.com/embed/${youtubeMatch[1]}`;
+  const youtubeMatch = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\s?/]+)/);
+  if (youtubeMatch) return `https://www.youtube.com/embed/${youtubeMatch[1]}?autoplay=1&mute=1&playsinline=1&enablejsapi=1&controls=1&fs=0`;
 
   // Vimeo
   const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
-  if (vimeoMatch) return `https://player.vimeo.com/video/${vimeoMatch[1]}`;
+  if (vimeoMatch) return `https://player.vimeo.com/video/${vimeoMatch[1]}?autoplay=1&muted=1&playsinline=1&title=0&byline=0&portrait=0`;
 
   // For other platforms, return the original URL
   return url;
