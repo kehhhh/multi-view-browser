@@ -10,11 +10,16 @@ A modern mobile application that enables users to browse multiple web pages simu
 - Responsive design for various screen sizes
 - Cross-platform support (iOS and Android)
 
+## Download
+
+Get the latest version of Multi-View Browser:
+[![Download APK](https://img.shields.io/github/v/release/kehhhh/multi-view-browser?label=Download&logo=android)](https://github.com/kehhhh/multi-view-browser/releases/latest)
+
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/multi-view-browser.git
+git clone https://github.com/kehhhh/multi-view-browser.git
 cd multi-view-browser
 ```
 
@@ -47,6 +52,32 @@ npm run android
 - Expo CLI
 - iOS Simulator (for iOS development)
 - Android Studio and Android SDK (for Android development)
+
+## Building and Releasing
+
+### Building the APK
+
+1. Install the latest EAS CLI:
+```bash
+npm install -g eas-cli
+```
+2. Build the APK using EAS:
+```bash
+eas build -p android --profile preview
+```
+
+### Releasing on GitHub
+
+1. Go to your repository's Releases page
+2. Click "Create a new release"
+3. Tag version (e.g., v1.0.0)
+4. Title the release (e.g., "Version 1.0.0")
+5. Add release notes describing the changes
+6. Upload the generated APK file
+7. Mark as pre-release if needed
+8. Click "Publish release"
+
+Note: Make sure to sign your APK before release. You can configure signing in `eas.json`.
 
 ## License
 
