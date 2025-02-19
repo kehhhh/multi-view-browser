@@ -48,10 +48,6 @@ npm run android
 - iOS Simulator (for iOS development)
 - Android Studio and Android SDK (for Android development)
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -59,11 +55,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/yourusername/multi-view-browser/issues) page
+1. Check the [Issues](https://github.com/kehhhh/multi-view-browser/issues) page
 2. Create a new issue if your problem isn't already listed
-## Authors
-
-- Initial work - [Your Name]
 
 ## Acknowledgments
 
