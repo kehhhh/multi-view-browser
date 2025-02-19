@@ -28,6 +28,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Multi-window browser for efficient multitasking and video viewing"
+    "description": "Multi-window browser for efficient multitasking and video viewing",
+    "extra": {
+      "eas": {
+        "projectId": "82d7a56f-46e8-4016-836e-c5df1cf066c9"
+      }
+    }
   }
 }
